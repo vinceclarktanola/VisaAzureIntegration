@@ -1,0 +1,43 @@
+@VisaAPI_HostAddress = https://vctanolavisaazureintegration.azurewebsites.net/
+
+GET {{VisaAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{VisaAPI_HostAddress}}/visa/
+Accept: application/json
+
+###
+
+GET {{VisaAPI_HostAddress}}/visa/5
+Accept: application/json
+
+###
+
+POST {{VisaAPI_HostAddress}}/visa/
+Content-Type: application/json
+
+{
+    "FirstName": "Jane",
+    "LastName": "Doe",
+    "Country": "Canada"
+}
+
+###
+
+PUT {{VisaAPI_HostAddress}}/visa/3
+Content-Type: application/json
+
+{
+    "id": 3,
+    "FirstName": "Jane*",
+    "LastName": "Doe",
+    "Country": "Canada"
+}
+
+###
+
+DELETE {{VisaAPI_HostAddress}}/visa/3
+
+###
