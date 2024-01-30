@@ -1,4 +1,4 @@
-@VisaAPI_HostAddress = https://vctanolavisaazureintegration.azurewebsites.net/
+@VisaAPI_HostAddress = https://vinceclarktanolavisaazureintegration.azurewebsites.net/
 
 GET {{VisaAPI_HostAddress}}/weatherforecast/
 Accept: application/json
