@@ -1,6 +1,3 @@
-
-using Azure.Messaging.ServiceBus;
-
 namespace VisaAPI
 {
     public class Program
